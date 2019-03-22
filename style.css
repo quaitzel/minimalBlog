@@ -7,29 +7,29 @@ body {
 
 a {
 	color: white;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .headerBanner {
-    height: 50px;
-    background-color: #00d600;
-    box-shadow: 0px 2px 2px #808080ba;
-    position: fixed;
-    width: 100%;
+	height: 50px;
+	background-color: #00d600;
+	box-shadow: 0px 2px 2px #808080ba;
+	position: fixed;
+	width: 100%;
 }
 
 .headerText {
 	color: white;
 	font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 15px;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 15px;
 }
 
 .wrapper {
-    z-index: -1;
-    width: 100%;
-    border-top: solid white 55px;
+	z-index: -1;
+	width: 100%;
+	border-top: solid white 55px;
 }
 
 .contentWrapper {
@@ -38,18 +38,19 @@ a {
 	color: white;
 	padding: 15px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto
+	margin-left: auto;
+	margin-right: auto
 }
 
 .singleItem {
 	padding: 10px;
 	border: solid white 2px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 0;
 }
+
 .singleItem:hover {
 	box-shadow: 0px 0px 10px white;
 }
@@ -61,16 +62,16 @@ a {
 
 .itemInfo {
 	margin-top: 10px;
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .bannerFooter {
 	height: 20px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    background-color: #676767;
-    bottom: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	background-color: #676767;
+	bottom: 0;
 }
 
 .bannerFooterMail {
