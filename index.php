@@ -55,8 +55,8 @@ $table = "tableName";
 			if ($result->num_rows > 0) {
 				// output data of each row
 				while ($row = $result->fetch_assoc()) {
-					echo utf8_encode("<div class='singleItem'><div class='itemTitle'>" . $row["title"] . "</div><div class='itemContent'>" . $row["content"] .
-						"</div><div class='itemInfo'>" . $row["info"] . "</div></div><br>");
+					echo mb_convert_encoding("<div class='singleItem'><div class='itemTitle'>" . $row["title"] . "</div><div class='itemContent'>" . $row["content"] .
+						"</div><div class='itemInfo'>" . $row["info"] . "</div></div><br>", 'UTF-8', mb_list_encodings());
 				}
 			} else {
 				echo "0 results";
